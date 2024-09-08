@@ -2,6 +2,7 @@ library('tidyverse')
 library('ggplot2')
 library('leaflet')
 library('leaflet.extras')
+library('isdas')
 
 ggplot() +
   geom_point(data = snow_deaths, aes(x = long, y = lat), color = 'blue', shape = 16) +
